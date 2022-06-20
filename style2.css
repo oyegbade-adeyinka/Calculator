@@ -11,16 +11,24 @@
       background-color: #000000;
       background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
       font-family: "poppins";
-  }
+    }
+    .main {
+        height: 100vh;
+        position: relative;
 
-  .container {
+    }
+    
+    
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
       padding: 10px;
       border-radius: 1em;
       height: 380px;
       width: 400px;
-      margin: auto;
       box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-      position: relative;
   }
 
   .display-box {
@@ -72,14 +80,3 @@
    box-shadow: inset 0px 0px 5px #c1c1c1;
   }
 
-  h1 {
-      font-size: 70px;
-      position: absolute;
-      font-style: italic;
-      top: 570px;
-      left: 100px;
-      justify-content: center;
-      background: linear-gradient(315deg, #000000 0%, #2e2e2e 74%);
-      -webkit-text-fill-color: transparent;
-      -webkit-background-clip: text;
-  }
